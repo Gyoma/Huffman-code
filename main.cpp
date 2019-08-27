@@ -11,7 +11,7 @@ int main()
 	code.createCodeTree(); //it's neсessary for data processing
 	code.codeText();
 
-	code.outCodeTree(); //save code tree for the processed data
+	code.outCodeTree(); //save code tree of the processed data
 
 	if (code.fileAlreadyProcessed())
 	{

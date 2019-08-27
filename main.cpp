@@ -13,7 +13,7 @@ int main()
 
 	code.outCodeTree();
 
-	if (code.alreadyProcessed())
+	if (code.fileAlreadyProcessed())
 	{
 		code.setInputFile("lol.txt");
 		code.createCodeTree();
@@ -23,15 +23,7 @@ int main()
 
 	code.setInputFile("in.txt");
 
-	if (code.alreadyProcessed())
-	{
-		code.loadCodeTree();
-		cout << code.decodeText();
-	}
-
-	code.setInputFile("lol.txt");
-
-	if (code.alreadyProcessed())
+	if (code.fileAlreadyProcessed())
 	{
 		code.loadCodeTree();
 		cout << code.decodeText();

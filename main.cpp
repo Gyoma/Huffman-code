@@ -8,7 +8,7 @@ int main()
 	HuffmanCode code;
 
 	code.setInputFile("in.txt");
-	code.createCodeTree(); //it's neсessary to procces data
+	code.createCodeTree(); //it's neсessary for data processing
 	code.codeText();
 
 	code.outCodeTree(); //save code tree for the processed data

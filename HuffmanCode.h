@@ -35,7 +35,7 @@ public:
 
 	void loadCodeTree();
 
-	bool alreadyProcessed();
+	bool fileAlreadyProcessed();
 
 	void setInputFile(std::string in_filename);
 

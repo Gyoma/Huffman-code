@@ -23,11 +23,8 @@ int main()
 
 	code.setInputFile("in.txt");
 
-	if (code.fileAlreadyProcessed())
-	{
-		code.loadCodeTree();
-		cout << code.decodeText();
-	}
+	code.loadCodeTree();
+	cout << code.decodeText();
 
 	system("pause");
 	return 0;

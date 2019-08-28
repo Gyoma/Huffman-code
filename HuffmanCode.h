@@ -43,7 +43,7 @@ public:
 
 	std::string decodeText();
 
-	void decodeText(std::string in_filename, std::string out_filename);
+	void decodeTextTo(std::string out_filename);
 
 	~HuffmanCode();
 

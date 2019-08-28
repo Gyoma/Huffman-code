@@ -215,11 +215,11 @@ std::string HuffmanCode::decodeText()
 	return result;
 }
 
-void HuffmanCode::decodeText(std::string in_filename, std::string out_filename)
+void HuffmanCode::decodeTextTo(std::string out_filename)
 {
 	ui x, mask, count;
 	Node* ptr = root;
-	std::ifstream is(in_filename);
+	std::ifstream is("out_" + input_filename);
 	std::ofstream os(out_filename);
 	std::string result;
 
